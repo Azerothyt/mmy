@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Control Panel</title>
+</head>
+<body>
+    <h1>Bot Control Panel</h1>
+    <form action="/send_message" method="POST">
+        <label for="channel_id">Channel ID:</label>
+        <input type="text" id="channel_id" name="channel_id" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br>
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
