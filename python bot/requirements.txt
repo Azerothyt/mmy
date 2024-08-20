@@ -1,0 +1,10 @@
+discord.py
+yt-dlp
+ffmpeg-python
+pynacl
+wikipedia
+datetime
+pytz
+asyncio
+flask 
+flask-sqlalchemy
